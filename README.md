@@ -27,8 +27,6 @@ If you want to sell KUSBA PCBs, you are allowed to, and you will not owe me any 
 
 <br>
 
-| Parts                                 |                                |
-| ------------------------------------- | ------------------------------ |
 | MCU                                   | RP2040                         |
 | Accelerometer                         | ADXL345BCCZ-RL7                |
 | 3.3V Regulator                        | AMS1117-3.3                    |
@@ -71,8 +69,7 @@ Soon:tm:
 
 <br>
 
-| Parts                                 |                                                              |
-| ------------------------------------- | ------------------------------------------------------------ |
+
 | MCU                                   | STM32F103                                                    |
 | Accelerometer                         | External ADXL345 Module                                      |
 | 3.3V Regulator                        | AMS1117-3.3                                                  |
