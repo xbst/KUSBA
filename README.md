@@ -33,7 +33,7 @@ If you want to sell KUSBA PCBs, you are allowed to, and you will not owe me any 
 | MCU                                   | RP2040                         |
 | Accelerometer                         | ADXL345BCCZ-RL7                |
 | 3.3V Regulator                        | AMS1117-3.3                    |
-| Flash                                 | W25Q16JVSNIQ or W25Q128JVSIQTR |
+| Flash                                 | W25Q16JVSNIQ or W25Q16JVSSIQ   |
 | Connector                             | USB C                          |
 | Smallest SMT                          | 0402                           |
 | Other Parts Needed                    | USB C Cable, M3 Screws         |
