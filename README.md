@@ -1,4 +1,5 @@
 # Klipper USB Accelerometer
+
 ![v2.0.1](./IMG/201_IRL.png)
 
 <br>A PCB designed to make life much easier for [Klipper's](https://github.com/KevinOConnor/klipper) [input shaping](https://github.com/Klipper3d/klipper/blob/master/docs/Resonance_Compensation.md) by simplifying the wiring and config for [measuring resonances](https://github.com/KevinOConnor/klipper/blob/master/docs/Measuring_Resonances.md). 
@@ -26,6 +27,7 @@ If you want to sell KUSBA PCBs, you are allowed to, and you will not owe me any 
 ![v2.0.1](./IMG/2_IRL.png)
 
 <br>
+
 | Parts                                 |                                |
 | ------------------------------------- | ------------------------------ |
 | MCU                                   | RP2040                         |
@@ -69,6 +71,7 @@ Soon:tm:
 ![v1.0](./IMG/1_IRL.png)
 
 <br>
+
 | Parts                                 |                                                              |
 | ------------------------------------- | ------------------------------------------------------------ |
 | MCU                                   | STM32F103                                                    |
@@ -100,7 +103,9 @@ Add these to the top of your printer.cfg. Use the correct serial address.
 [mcu adxl]
 serial: /dev/serial/by-id/xxx
 ```
+
 <br> Add these somewhere in your printer.cfg. Edit according to your printer.
+
 ```
 [adxl345]
 cs_pin: adxl:PA4
@@ -127,10 +132,12 @@ There are .STL files included for mounting the PCBs on various toolheads. If you
 <br> 
 
 ## YouTube
+
 I am a YouTube content creator, and these projects were designed for my videos. If you want content about these projects & more, please consider [subscribing to my YouTube channel](https://www.youtube.com/channel/UClAWYmCkHjsbaX9Wz1df2mg).
 <br>
 
 ## License & Selling Your Own
+
 These projects are licensed under [GPL v3](./LICENSE). This means you are free to make your own, modify, sell, and do pretty much whatever you want with the designs. You have to give credit to the project when modifying or selling, and you cannot claim that I endorse the sale when selling.
 
 <br>
