@@ -1,6 +1,6 @@
 # Klipper USB Accelerometer
 
-![v2.0.1](./IMG/201_IRL.png)
+![v2.0.1](./Images/201_IRL.png)
 
 <br>A PCB designed to make life much easier for [Klipper's](https://github.com/KevinOConnor/klipper) [input shaping](https://github.com/Klipper3d/klipper/blob/master/docs/Resonance_Compensation.md) by simplifying the wiring and config for [measuring resonances](https://github.com/KevinOConnor/klipper/blob/master/docs/Measuring_Resonances.md). 
 
@@ -24,7 +24,7 @@ If you want to sell KUSBA PCBs, you are allowed to, and you will not owe me any 
 
 **FKA: ADXL345 MCU 2: Electric Boogaloo**
 
-![v2.0](./IMG/2_IRL.png)
+![v2.0](./Images/2_IRL.png)
 
 <br>
 
@@ -44,7 +44,7 @@ If you want to sell KUSBA PCBs, you are allowed to, and you will not owe me any 
 
 ### v2.0
 
-![v2.0](./IMG/2_RND.png)
+![v2.0](./Images/2_RND.png)
 
 This PCB was designed in March 2022 to to be a cheaper and better successor to the v1.0. It uses the cheaper and more widely available RP2040 MCU instead of the STM32F103, also eliminating the need for an external programmer, has the ADXL345 on the PCB so external modules are no longer necessary, has a safer PCB layout (no traces near screw holes), and is easier to mount. It is also larger due to the added complexity of using a RP2040, like needing an external flash, more capacitors, and a larger footprint. Still, this is easy to mount on most toolheads.
 
@@ -52,7 +52,7 @@ This PCB was designed in March 2022 to to be a cheaper and better successor to t
 
 ### v2.0.1
 
-![v2.0.1](./IMG/201_RND.png)
+![v2.0.1](./Images/201_RND.png)
 
 Some minor changes to the v2.0. Uses M3 screws for mounting instead of M2.5, pads instead of THT pins for SWDIO, SWCLK, GND, ability to use an alternative external flash (because W25Q16JVSNIQ can go out of stock sometimes), and a better name; now called "Klipper USB Accelerometer" instead of "ADXL345 MCU 2: Electric Boogaloo". Designed in April 2022.
 
@@ -68,7 +68,7 @@ Soon:tm:
 
 **FKA: ADXL345 MCU**
 
-![v1.0](./IMG/1_IRL.png)
+![v1.0](./Images/1_IRL.png)
 
 <br>
 
