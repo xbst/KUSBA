@@ -54,7 +54,7 @@ This PCB was designed in March 2022 to to be a cheaper and better successor to t
 
 ![v2.0.1](./Images/201_RND.png)
 
-Some minor changes to the v2.0. Uses M3 screws for mounting instead of M2.5, pads instead of THT pins for SWDIO, SWCLK, GND, ability to use an alternative external flash (because W25Q16JVSNIQ can go out of stock sometimes), and a better name; now called "Klipper USB Accelerometer" instead of "ADXL345 MCU 2: Electric Boogaloo". Designed in April 2022.
+Some minor changes to the v2.0. Uses M3 screws for mounting instead of M2.5, pads instead of THT pins for SWDIO, SWCLK, GND, ability to use an alternative external flash (because W25Q16JVSNIQ can go out of stock sometimes). Designed in April 2022.
 
 <br>
 
@@ -86,7 +86,7 @@ Soon:tm:
 
 <br>
 
-Designed in 2020, before the component shortage, this PCB allows you to use a simple USB connector instead of the complicated and often unreliable flying wire SPI setup for [measuring resonances](https://github.com/KevinOConnor/klipper/blob/master/docs/Measuring_Resonances.md).
+Designed in November 2020, before the component shortage, this PCB allows you to use a simple USB connector instead of the complicated and often unreliable flying wire SPI setup for [measuring resonances](https://github.com/KevinOConnor/klipper/blob/master/docs/Measuring_Resonances.md).
 
 <br>You can find more information [here](https://www.youtube.com/watch?v=tDQd-jGegX0).
 
