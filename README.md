@@ -24,7 +24,7 @@ If you want to sell KUSBA PCBs, you are allowed to, and you will not owe me any 
 
 **FKA: ADXL345 MCU 2: Electric Boogaloo**
 
-![v2.0.1](./IMG/2_IRL.png)
+![v2.0](./IMG/2_IRL.png)
 
 <br>
 
@@ -44,7 +44,7 @@ If you want to sell KUSBA PCBs, you are allowed to, and you will not owe me any 
 
 ### v2.0
 
-![v2.0.1](./IMG/2_RND.png)
+![v2.0](./IMG/2_RND.png)
 
 This PCB was designed in March 2022 to to be a cheaper and better successor to the v1.0. It uses the cheaper and more widely available RP2040 MCU instead of the STM32F103, also eliminating the need for an external programmer, has the ADXL345 on the PCB so external modules are no longer necessary, has a safer PCB layout (no traces near screw holes), and is easier to mount. It is also larger due to the added complexity of using a RP2040, like needing an external flash, more capacitors, and a larger footprint. Still, this is easy to mount on most toolheads.
 
