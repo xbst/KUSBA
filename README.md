@@ -27,7 +27,7 @@ If you want to sell KUSBA PCBs, you are allowed to, and you will not owe me any 
 
 <br>
 
-| Parts                                 |                                |
+| Parts                                                                  |
 | ------------------------------------- | ------------------------------ |
 | MCU                                   | RP2040                         |
 | Accelerometer                         | ADXL345BCCZ-RL7                |
@@ -71,7 +71,7 @@ Soon:tm:
 
 <br>
 
-| Parts                                 |                                                              |
+| Parts                                                                                                |
 | ------------------------------------- | ------------------------------------------------------------ |
 | MCU                                   | STM32F103                                                    |
 | Accelerometer                         | External ADXL345 Module                                      |
