@@ -120,17 +120,13 @@ probe_points:
 ```
 
 <br>
-
 *To be edited to use [Include] and to include the usage.*
-
 <br>
 
 ## Toolhead Mounts
 
 There are .STL files included for mounting the PCBs on various toolheads. If you wish to contribute a design, fork the project, add your design in a new folder, with a readme.md file in the folder, edit the readme.md file in the folder containing all designs, and create a pull request. Very similar to uploading a mod to the VoronUsers repo. STL files should be printable without supports (or include built-in supports), and should be oriented correctly.
-
 <br> 
-
 ## YouTube
 
 I am a YouTube content creator, and these projects were designed for my videos. If you want content about these projects & more, please consider [subscribing to my YouTube channel](https://www.youtube.com/channel/UClAWYmCkHjsbaX9Wz1df2mg).
@@ -139,11 +135,8 @@ I am a YouTube content creator, and these projects were designed for my videos. 
 ## License & Selling Your Own
 
 These projects are licensed under [GPL v3](./LICENSE). This means you are free to make your own, modify, sell, and do pretty much whatever you want with the designs. You have to give credit to the project when modifying or selling, and you cannot claim that I endorse the sale when selling.
-
 <br>
-
 This project does not come with any warranty, if you choose to build/use a KUSBA, you are doing this at your own risk!
-
 <br>
 
 ## Supporting Development of More PCBs
