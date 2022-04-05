@@ -68,7 +68,7 @@ Soon:tm:
 
 **FKA: ADXL345 MCU**
 
-![v1.0](./Images/1_IRL.png)
+![v1.0](./Images/1_IRL.jpg)
 
 <br>
 
