@@ -81,7 +81,7 @@ Soon:tm:
 | Connector                             | [USB C](https://www.digikey.com/en/products/detail/gct/USB4085-GF-A/9859733) |
 | Smallest SMT                          | 0402                                                         |
 | Other Parts Needed                    | ADXL345 Module, USB C Cable, M3 Screws, UART Programmer      |
-| Dimensions                            | 25 x 30 mm                                                   |
+| Dimensions                            | 25.0 x 30.0 mm                                                   |
 | Cost per PCB (ordering 5 from JLCPCB) | $25-30                                                       |
 
 <br>
