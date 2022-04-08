@@ -18,7 +18,7 @@ I will order some v2.0.1 PCBs in the near future. Expected price is $25 + shippi
 
 <br>
 
-If you want to sell KUSBA PCBs, you are allowed to, and you will not owe me any royalties. **You cannot claim that I endorse the sale**. You can check the license file for more information. However, if you **wish** to give me a share, you can [Paypal]() me, or subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech).
+If you want to sell KUSBA PCBs, you are allowed to, and you will not owe me any royalties. **You cannot claim that I endorse the sale**. You can check the license file for more information. However, if you **wish** to give me a share, you can [Paypal](https://l.isiks.tech/PayPal) me, or subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech).
 
 ## Version 2.0
 
@@ -141,4 +141,4 @@ This project does not come with any warranty, if you choose to build/use a KUSBA
 
 ## Supporting Development of More PCBs
 
-If you feel like contributing to the development of this project and other projects like this, you can [Paypal]() me, or subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech).
+If you feel like contributing to the development of this project and other projects like this, you can [Paypal](https://l.isiks.tech/PayPal) me, or subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech).
