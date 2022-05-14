@@ -6,11 +6,11 @@
 
 <br>
 
-2 major versions exist, v1.0 (called the ADXL345 MCU) uses a STM32F103 MCU and requires a [Aliexpress](https://s.click.aliexpress.com/e/_APsfkw) ADXL345 Module ([also available on Amazon](https://amzn.to/3k1iGy9)). The MCU also requires an external programmer ([Aliexpress](https://s.click.aliexpress.com/e/_AB7gkA) [Amazon](https://amzn.to/2OTzpI8)) for flashing the bootloader. More information below. I strongly recommend v2.0 over v1.0, but v1.0 is included here too if you prefer it.
+2 major versions exist, v1 (called the ADXL345 MCU) uses a STM32F103 MCU and requires a [Aliexpress](https://s.click.aliexpress.com/e/_APsfkw) ADXL345 Module ([also available on Amazon](https://amzn.to/3k1iGy9)). The MCU also requires an external programmer ([Aliexpress](https://s.click.aliexpress.com/e/_AB7gkA) [Amazon](https://amzn.to/2OTzpI8)) for flashing the bootloader. More information below. I strongly recommend v2 over v1, but v1 is included here too if you prefer it.
 
 <br>
 
-v2.0 uses the RP2040 MCU instead of the unobtanium (in 2022) STM32F103. The RP2040 requires a more complicated PCB layout, more capacitors, an external flash and a larger footprint, so this PCB is 35.6x25 mm. The ADXL345 is on the PCB, so the module is not needed with this setup. The RP2040 does not require an external programmer either, so it is easier to use.
+v2 uses the RP2040 MCU instead of the unobtanium (in 2022) STM32F103. The RP2040 requires a more complicated PCB layout, more capacitors, an external flash and a larger footprint, so this PCB is 35.6x25 mm. The ADXL345 is on the PCB, so the module is not needed with this setup. The RP2040 does not require an external programmer either, so it is easier to use.
 
 ## Purchasing a KUSBA
 
