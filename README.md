@@ -1,6 +1,6 @@
 # Klipper USB Accelerometer
 
-![v2.0.1](./Images/201_IRL.png)
+![v2.1](./Images/21_IRL.png)
 
 <br>A PCB designed to make life much easier for [Klipper's](https://github.com/KevinOConnor/klipper) [input shaping](https://github.com/Klipper3d/klipper/blob/master/docs/Resonance_Compensation.md) by simplifying the wiring and config for [measuring resonances](https://github.com/KevinOConnor/klipper/blob/master/docs/Measuring_Resonances.md). 
 
@@ -10,21 +10,21 @@
 
 <br>
 
-v2.0 uses the RP2040 MCU instead of the unobtanium (in 2022) STM32F103. The RP2040 requires a more complicated PCB layout, more capacitors, an external flash and a larger footprint, so this PCB is 38.8x25 mm. The ADXL345 is on the PCB, so the module is not needed with this setup. The RP2040 does not require an external programmer either, so it is easier to use.
+v2.0 uses the RP2040 MCU instead of the unobtanium (in 2022) STM32F103. The RP2040 requires a more complicated PCB layout, more capacitors, an external flash and a larger footprint, so this PCB is 35.6x25 mm. The ADXL345 is on the PCB, so the module is not needed with this setup. The RP2040 does not require an external programmer either, so it is easier to use.
 
 #### Purchasing a KUSBA
 
-I will order some v2.0.1 PCBs in the near future. Expected price is $25 + shipping (subject to change). In the meantime you can use the included gerber files to order your own from a PCB manufacturer like [PCBWAY](https://www.pcbway.com/setinvite.aspx?inviteid=374841) or [JLCPCB](https://jlcpcb.com/)
+You can use the included gerber files to order your own from a PCB manufacturer like [PCBWAY](https://www.pcbway.com/setinvite.aspx?inviteid=374841) or [JLCPCB](https://jlcpcb.com/) I am also considering selling some online, let me know on the [Isik's Tech Discord server](https://l.isiks.tech/discord) if you are interested.
 
 <br>
 
 If you want to sell KUSBA PCBs, you are allowed to, and you will not owe me any royalties. **You cannot claim that I endorse the sale**. You can check the license file for more information. However, if you **wish** to give me a share, you can [Paypal](https://l.isiks.tech/PayPal) me, or subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech/member).
 
-## Version 2.0
+## Version 2
 
 **FKA: ADXL345 MCU 2: Electric Boogaloo**
 
-![v2.0](./Images/2_IRL.png)
+![v2.1](./Images/21_RND.png)
 
 <br>
 
@@ -33,29 +33,16 @@ If you want to sell KUSBA PCBs, you are allowed to, and you will not owe me any 
 | MCU                                   | RP2040                         |
 | Accelerometer                         | ADXL345BCCZ-RL7                |
 | 3.3V Regulator                        | AMS1117-3.3                    |
-| Flash                                 | W25Q16JVSNIQ or W25Q16JVSSIQ   |
+| Flash                                 | W25Q16JVSNIQ                   |
 | Connector                             | USB C                          |
 | Smallest SMT                          | 0402                           |
 | Other Parts Needed                    | USB C Cable, M3 Screws         |
-| Dimensions                            | 38.8 x 25.0 mm                 |
-| Cost per PCB (ordering 5 from JLCPCB) | ~$15-20                        |
+| Dimensions                            | 35.6 x 25.0 mm                 |
+| Cost per PCB (ordering 5 from JLCPCB) | ~$15                           |
 
 <br>
-
-### v2.0
-
-![v2.0](./Images/2_RND.png)
-
-This PCB was designed in March 2022 to to be a cheaper and better successor to the v1.0. It uses the cheaper and more widely available RP2040 MCU instead of the STM32F103, also eliminating the need for an external programmer, has the ADXL345 on the PCB so external modules are no longer necessary, has a safer PCB layout (no traces near screw holes), and is easier to mount. It is also larger due to the added complexity of using a RP2040, like needing an external flash, more capacitors, and a larger footprint. Still, this is easy to mount on most toolheads.
-
-<br>
-
-### v2.0.1
-
-![v2.0.1](./Images/201_RND.png)
-
-Some minor changes to the v2.0. Uses M3 screws for mounting instead of M2.5, pads instead of THT pins for SWDIO, SWCLK, GND, ability to use an alternative external flash (because W25Q16JVSNIQ can go out of stock sometimes). Designed in April 2022.
-
+This PCB was designed in March 2022 (v2.1 in May 2022) to to be a cheaper and better successor to the v1.0. It uses the cheaper and more widely available RP2040 MCU instead of the STM32F103, also eliminating the need for an external programmer, has the ADXL345 on the PCB so external modules are no longer necessary, has a safer PCB layout (no traces near screw holes), and is easier to mount. It is also larger due to the added complexity of using a RP2040, like needing an external flash, more capacitors, and a larger footprint. Still, this is easy to mount on most toolheads.
+The hexagon shape of the PCB is inpired by Voron Design's logo, since this was designed to be used on my Voron printers. This project is not affiliated with Voron Design.
 <br>
 
 ### Instructions
@@ -81,8 +68,8 @@ Soon:tm:
 | Connector                             | [USB C](https://www.digikey.com/en/products/detail/gct/USB4085-GF-A/9859733) |
 | Smallest SMT                          | 0402                                                         |
 | Other Parts Needed                    | ADXL345 Module, USB C Cable, M3 Screws, UART Programmer      |
-| Dimensions                            | 25.0 x 30.0 mm                                                   |
-| Cost per PCB (ordering 5 from JLCPCB) | $25-30                                                       |
+| Dimensions                            | 25.0 x 30.0 mm                                               |
+| Cost per PCB (ordering 5 from JLCPCB) | $25                                                          |
 
 <br>
 
