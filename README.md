@@ -12,7 +12,7 @@
 
 v2.0 uses the RP2040 MCU instead of the unobtanium (in 2022) STM32F103. The RP2040 requires a more complicated PCB layout, more capacitors, an external flash and a larger footprint, so this PCB is 35.6x25 mm. The ADXL345 is on the PCB, so the module is not needed with this setup. The RP2040 does not require an external programmer either, so it is easier to use.
 
-#### Purchasing a KUSBA
+## Purchasing a KUSBA
 
 You can use the included gerber files to order your own from a PCB manufacturer like [PCBWAY](https://www.pcbway.com/setinvite.aspx?inviteid=374841) or [JLCPCB](https://jlcpcb.com/). I am also considering selling some online, let me know on the [Isik's Tech Discord server](https://l.isiks.tech/discord) if you are interested.
 
