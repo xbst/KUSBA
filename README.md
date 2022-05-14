@@ -14,11 +14,15 @@ v2.0 uses the RP2040 MCU instead of the unobtanium (in 2022) STM32F103. The RP20
 
 ## Purchasing a KUSBA
 
-You can use the included gerber files to order your own from a PCB manufacturer like [PCBWAY](https://www.pcbway.com/setinvite.aspx?inviteid=374841) or [JLCPCB](https://jlcpcb.com/). I am also considering selling some online, let me know on the [Isik's Tech Discord server](https://l.isiks.tech/discord) if you are interested.
+You can use the included gerber files to order your own from a PCB manufacturer like [PCBWAY](https://www.pcbway.com/setinvite.aspx?inviteid=374841) or [JLCPCB](https://jlcpcb.com/). I am also considering selling some assembled PCBs, let me know on the [Isik's Tech Discord server](https://l.isiks.tech/discord) if you are interested.
 
 <br>
 
-If you want to sell KUSBA PCBs, you are allowed to, and you will not owe me any royalties. **You cannot claim that I endorse the sale**. You can check the license file for more information. However, if you **wish** to give me a share, you can [Paypal](https://l.isiks.tech/PayPal) me, or subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech/member).
+This file will be updated with the list of known vendors if vendors decide to sell assembled KUSBA PCBs.
+
+<br>
+
+If you want to sell KUSBA PCBs, you are allowed to, and you will not owe me any royalties. **You cannot claim that I endorse the sale**. You can check the license file for more information. However, if you **wish** to give me a share, you can [Paypal](https://l.isiks.tech/PayPal) me, or subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech/member). I can add links to your store above, DM me on discord for details.
 
 ## Version 2
 
