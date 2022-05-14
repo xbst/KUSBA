@@ -28,7 +28,7 @@ If you want to sell KUSBA PCBs, you are allowed to, and you will not owe me any 
 
 **FKA: ADXL345 MCU 2: Electric Boogaloo**
 
-![v2.1](./Images/21_RND.png)
+![v2.1](./Images/21_RND.PNG)
 
 <br>
 
