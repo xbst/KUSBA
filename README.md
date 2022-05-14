@@ -18,11 +18,11 @@ You can use the included gerber files to order your own from a PCB manufacturer 
 
 <br>
 
-This file will be updated with the list of known vendors if vendors decide to sell assembled KUSBA PCBs.
+This file will be updated with the list of known vendors if vendors decide to sell assembled KUSBA PCBs. If you are a venodor; I can add links to your store above, DM me on Discord for details.
 
 <br>
 
-If you want to sell KUSBA PCBs, you are allowed to, and you will not owe me any royalties. **You cannot claim that I endorse the sale**. You can check the license file for more information. However, if you **wish** to give me a share, you can [Paypal](https://l.isiks.tech/PayPal) me, or subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech/member). I can add links to your store above, DM me on Discord for details.
+If you want to sell KUSBA PCBs, you are allowed to, and you will not owe me any royalties. **You cannot claim that I endorse the sale**. You can check the license file for more information. However, if you **wish** to give me a share, you can [Paypal](https://l.isiks.tech/PayPal) me, or subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech/member).
 
 ## Version 2
 
