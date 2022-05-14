@@ -14,7 +14,7 @@ v2.0 uses the RP2040 MCU instead of the unobtanium (in 2022) STM32F103. The RP20
 
 #### Purchasing a KUSBA
 
-You can use the included gerber files to order your own from a PCB manufacturer like [PCBWAY](https://www.pcbway.com/setinvite.aspx?inviteid=374841) or [JLCPCB](https://jlcpcb.com/) I am also considering selling some online, let me know on the [Isik's Tech Discord server](https://l.isiks.tech/discord) if you are interested.
+You can use the included gerber files to order your own from a PCB manufacturer like [PCBWAY](https://www.pcbway.com/setinvite.aspx?inviteid=374841) or [JLCPCB](https://jlcpcb.com/). I am also considering selling some online, let me know on the [Isik's Tech Discord server](https://l.isiks.tech/discord) if you are interested.
 
 <br>
 
