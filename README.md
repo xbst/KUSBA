@@ -129,3 +129,6 @@ This project does not come with any warranty, if you choose to build/use a KUSBA
 ## Supporting Development of More PCBs
 
 If you feel like contributing to the development of this project and other projects like this, you can [Paypal](https://l.isiks.tech/PayPal) me, or subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech/member).
+
+### Affliate Link Disclosure
+This readme file contains Amazon Associate, Aliexpress affiliate, PCBWay affiliate links. I make a comission on qualifying purchases.
