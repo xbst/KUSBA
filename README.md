@@ -1,36 +1,34 @@
 # Klipper USB Accelerometer
-
-![v2.1](./Images/21_IRL.png)
-
-<br>A PCB designed to make life much easier for [Klipper's](https://github.com/KevinOConnor/klipper) [input shaping](https://github.com/Klipper3d/klipper/blob/master/docs/Resonance_Compensation.md) by simplifying the wiring and config for [measuring resonances](https://github.com/KevinOConnor/klipper/blob/master/docs/Measuring_Resonances.md). 
-
+A PCB designed to make [Klipper's](https://github.com/KevinOConnor/klipper) [input shaping](https://github.com/Klipper3d/klipper/blob/master/docs/Resonance_Compensation.md) much easier by simplifying the wiring and config for [measuring resonances](https://github.com/KevinOConnor/klipper/blob/master/docs/Measuring_Resonances.md). 
 <br>
 
-2 major versions exist, v1 (called the ADXL345 MCU) uses a STM32F103 MCU and requires a [Aliexpress](https://s.click.aliexpress.com/e/_APsfkw) ADXL345 Module ([also available on Amazon](https://amzn.to/3k1iGy9)). The MCU also requires an external programmer ([Aliexpress](https://s.click.aliexpress.com/e/_AB7gkA) [Amazon](https://amzn.to/2OTzpI8)) for flashing the bootloader. More information below. I strongly recommend v2 over v1, but v1 is included here too if you prefer it.
-
-<br>
-
-v2 uses the RP2040 MCU instead of the unobtanium (in 2022) STM32F103. The RP2040 requires a more complicated PCB layout, more capacitors, an external flash and a larger footprint, so this PCB is 35.6x25 mm. The ADXL345 is on the PCB, so the module is not needed with this setup. The RP2040 does not require an external programmer either, so it is easier to use.
+## v1 or v2?
+TL;DR: v2 is better
+|v1|v2|
+|--|--|
+|More expensive|Cheaper|
+|Uses unobtanium parts|All parts are easy to source|
+|Requires external UART programmer|Not needed|
+|More complicated initial setup|Easier initial setup|
+|Requires external GY-291 ADXL345 Module|ADXL345 is on the PCB, not needed|
+|Takes more room (with ADXL345)|Takes less room (easier to mount)|
+|PCB is smaller|PCB is larger|
 
 ## Purchasing a KUSBA
 
-You can use the included gerber files to order your own from a PCB manufacturer like [PCBWAY](https://www.pcbway.com/setinvite.aspx?inviteid=374841) or [JLCPCB](https://jlcpcb.com/). I am also considering selling some assembled PCBs, let me know on the [Isik's Tech Discord server](https://l.isiks.tech/discord) if you are interested.
+You can use the included gerber files to order your own from a PCB manufacturer like [PCBWay](https://www.pcbway.com/setinvite.aspx?inviteid=374841) or [JLCPCB](https://jlcpcb.com/). I am also considering selling some assembled PCBs, let me know on the [Isik's Tech Discord server](https://l.isiks.tech/discord) if you are interested.
 
 <br>
 
-This file will be updated with the list of known vendors if vendors decide to sell assembled KUSBA PCBs. If you are a venodor; I can add links to your store above, DM me on Discord for details.
-
+This file will be updated with the list of known vendors *if* vendors decide to sell assembled KUSBA PCBs. If you are a vendor: I can add links to your store if you are selling KUSBAs, DM me on Discord for details.
 <br>
 
-If you want to sell KUSBA PCBs, you are allowed to, and you will not owe me any royalties. **You cannot claim that I endorse the sale**. You can check the license file for more information. However, if you **wish** to give me a share, you can [Paypal](https://l.isiks.tech/PayPal) me, or subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech/member).
 
 # Version 2
 
 **FKA: ADXL345 MCU 2: Electric Boogaloo**
-
-![v2.1](./Images/21_RND.PNG)
-
-<br>
+![v2.2](./Images/2_IRL.PNG)
+<br>[YouTube Video](Soontm)
 
 | Parts                                 |                                |
 | ------------------------------------- | ------------------------------ |
@@ -44,14 +42,7 @@ If you want to sell KUSBA PCBs, you are allowed to, and you will not owe me any 
 | Dimensions                            | 36.4 x 25.0 mm                 |
 | Cost per PCB (ordering 5 from JLCPCB) | ~$15                           |
 
-<br>
-This PCB was designed in March 2022 (v2.1 in May 2022) to to be a cheaper and better successor to the v1.0. It uses the cheaper and more widely available RP2040 MCU instead of the STM32F103, also eliminating the need for an external programmer, has the ADXL345 on the PCB so external modules are no longer necessary, has a safer PCB layout (no traces near screw holes), and is easier to mount. It is also larger due to the added complexity of using a RP2040, like needing an external flash, more capacitors, and a larger footprint. Still, this is easy to mount on most toolheads.
-The hexagon shape of the PCB is inpired by Voron Design's logo, since this was designed to be used on my Voron printers. This project is not affiliated with Voron Design.
-<br>
-
 ## Instructions
-
-**Warning: Make sure to use plastic washers between metal screws and PCB!**
 
 ### 0. Klipper Prep
 Taken from the [official Klipper docs](https://www.klipper3d.org/Measuring_Resonances.html#software-installation).
@@ -99,23 +90,27 @@ sudo umount /mnt
 9. Reset or unplug and replug in the MCU.
 
 ### 2. Configure Klipper
-1. Download the [adxlmcu.cfg](./Firmware/v2/adxlmcu.cfg) file from this repo using:
+1. Go back to the home directory.
+```
+cd ~
+```
+2. Download the [adxlmcu.cfg](./Firmware/v2/adxlmcu.cfg) file from this repo using:
 ```
 sudo wget https://raw.githubusercontent.com/xbst/KUSBA/main/Firmware/v2/adxlmcu.cfg
 ```
-2. Find your MCU address.
+3. Find your MCU address.
 ```
 ls /dev/serial/by-id/*
 ```
-3. Edit the adxlmcu.cfg file. Change the MCU serial address and the probe points.
+4. Edit the adxlmcu.cfg file. Change the MCU serial address and the probe points.
 ```
 sudo nano adxlmcu.cfg
 ```
-4. Add the following to your printer.cfg:
+5. Add the following to your printer.cfg:
 ```
 [include adxlmcu.cfg]
 ```
-5. Do your testing. When done comment the include line to disable the KUSBA. (If you don't do this and unplug the KUSBA, Klipper won't work.)
+6. Do your testing. When done comment the include line to disable the KUSBA. (If you don't do this and unplug the KUSBA, Klipper won't work.)
 ```
 # [include adxlmcu.cfg]
 ```
@@ -127,8 +122,7 @@ sudo nano adxlmcu.cfg
 **FKA: ADXL345 MCU**
 
 ![v1.0](./Images/1_IRL.jpg)
-
-<br>
+<br>[YouTube Video](https://www.youtube.com/watch?v=tDQd-jGegX0)
 
 | Parts                                 |                                                              |
 | ------------------------------------- | ------------------------------------------------------------ |
@@ -140,15 +134,9 @@ sudo nano adxlmcu.cfg
 | Smallest SMT                          | 0402                                                         |
 | Other Parts Needed                    | ADXL345 Module, USB C Cable, M3 Screws, UART Programmer      |
 | Dimensions                            | 25.0 x 30.0 mm                                               |
-| Cost per PCB (ordering 5 from JLCPCB) | $25                                                          |
+| Cost per PCB (ordering 5 from JLCPCB) | ~$25                                                          |
 
-<br>
 
-Designed in November 2020, before the component shortage, this PCB allows you to use a simple USB connector instead of the complicated and often unreliable flying wire SPI setup for [measuring resonances](https://github.com/KevinOConnor/klipper/blob/master/docs/Measuring_Resonances.md).
-
-<br>You can find more information [here](https://www.youtube.com/watch?v=tDQd-jGegX0).
-
-<br>
 
 ## Instructions
 
@@ -162,7 +150,7 @@ Taken from the [official Klipper docs](https://www.klipper3d.org/Measuring_Reson
 sudo apt update
 sudo apt install python3-numpy python3-matplotlib
 ```
-### 1. Flash the bootloader.
+### 1. Flash the Bootloader
 You will need a USB UART programmer. I recommend using a CP2012 programmer, because it is cheap, easy to source, and it works.
 Programmer:
 [Aliexpress](https://s.click.aliexpress.com/e/_AB7gkA)
@@ -230,23 +218,27 @@ dfu-util -d 1eaf:0003 -a 2 -R -D out/klipper.bin
 9. Reset or unplug and replug in the MCU.
 
 ### 3. Configure Klipper
-1. Download the [adxlmcu.cfg](./Firmware/v1/adxlmcu.cfg) file from this repo using:
+1. Go back to the home directory.
+```
+cd ~
+```
+2. Download the [adxlmcu.cfg](./Firmware/v1/adxlmcu.cfg) file from this repo using:
 ```
 sudo wget https://raw.githubusercontent.com/xbst/KUSBA/main/Firmware/v1/adxlmcu.cfg
 ```
-2. Find your MCU address.
+3. Find your MCU address.
 ```
 ls /dev/serial/by-id/*
 ```
-3. Edit the adxlmcu.cfg file. Change the MCU serial address and the probe points.
+4. Edit the adxlmcu.cfg file. Change the MCU serial address and the probe points.
 ```
 sudo nano adxlmcu.cfg
 ```
-4. Add the following to your printer.cfg:
+5. Add the following to your printer.cfg:
 ```
 [include adxlmcu.cfg]
 ```
-5. Do your testing. When done comment the include line to disable the KUSBA. (If you don't do this and unplug the KUSBA, Klipper won't work.)
+6. Do your testing. When done comment the include line to disable the KUSBA. (If you don't do this and unplug the KUSBA, Klipper won't work.)
 ```
 # [include adxlmcu.cfg]
 ```
@@ -265,4 +257,5 @@ If you feel like contributing to the development of this project and other proje
 ## Notes
 - This readme file contains Amazon Associate, Aliexpress affiliate, PCBWay affiliate links. I make a comission on qualifying purchases.
 - This project does not come with any warranty, if you choose to build/use a KUSBA, you are doing this at your own risk!
+- If you want to sell KUSBA PCBs, you are allowed to, and you will not owe me any royalties. **You cannot claim that I endorse the sale**. You can check the license file for more information. However, if you **wish** to give me a share, you can [Paypal](https://l.isiks.tech/PayPal) me, or subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech/member).
 
