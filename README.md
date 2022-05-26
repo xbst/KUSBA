@@ -178,10 +178,10 @@ You will also need some Female/Female dupont cables:
 4. Jump the boot pins:
 <br>BOOT0 > VCC
 <br>BOOT1 > GND
-5. Wire power from UART programmer
+5. Connect power from UART programmer:
 <br>3V3 > VCC
 <br>GND > GND
-6. Wire the UART pins:
+6. Connect the UART pins:
 <br>TX > RX1
 <br>RX > TX1
 7. Plug in the UART programmer to your Windows PC.
