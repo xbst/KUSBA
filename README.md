@@ -123,16 +123,12 @@ There are .STL files included for mounting the PCBs on various toolheads. If you
 I am a YouTube content creator, and these projects were designed for my videos. If you want content about these projects & more, please consider [subscribing to my YouTube channel](https://www.youtube.com/channel/UClAWYmCkHjsbaX9Wz1df2mg).
 <br>
 
-## License & Selling Your Own
-
-These projects are licensed under [GPL v3](./LICENSE). This means you are free to make your own, modify, sell, and do pretty much whatever you want with the designs. You have to give credit to the project when modifying or selling, and you cannot claim that I endorse the sale when selling.
-<br>
-This project does not come with any warranty, if you choose to build/use a KUSBA, you are doing this at your own risk!
-<br>
-
 ## Supporting Development of More PCBs
 
 If you feel like contributing to the development of this project and other projects like this, you can [Paypal](https://l.isiks.tech/PayPal) me, or subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech/member).
 
-## Affliate Link Disclosure
+## Notes
 This readme file contains Amazon Associate, Aliexpress affiliate, PCBWay affiliate links. I make a comission on qualifying purchases.
+<br>
+This project does not come with any warranty, if you choose to build/use a KUSBA, you are doing this at your own risk!
+
