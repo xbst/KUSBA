@@ -172,9 +172,9 @@ You will also need some Female/Female dupont cables:
 [Aliexpress](https://s.click.aliexpress.com/e/_9GgrhS)
 [Amazon](https://amzn.to/3uAZU5E)
 
-1. Download & install the [CP2012 drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers).
-2. Download & install the [flasher](https://www.st.com/en/development-tools/flasher-stm32.html).
-3. Download the [STM32duino bootloader](https://github.com/rogerclarkmelbourne/STM32duino-bootloader/blob/master/binaries/maple_mini_boot20.bin)
+1. Download & install the [CP2012 drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers). (on your Windows PC)
+2. Download & install the [flasher](https://www.st.com/en/development-tools/flasher-stm32.html). (on your Windows PC)
+3. Download the [STM32duino bootloader](https://github.com/rogerclarkmelbourne/STM32duino-bootloader/blob/master/binaries/maple_mini_boot20.bin). (on your Windows PC)
 4. Jump the boot pins:
 <br>BOOT0 > VCC
 <br>BOOT1 > GND
