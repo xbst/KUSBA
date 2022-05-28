@@ -1,8 +1,8 @@
 # Klipper USB Accelerometer
-A PCB designed to make [Klipper's](https://github.com/KevinOConnor/klipper) [input shaping](https://github.com/Klipper3d/klipper/blob/master/docs/Resonance_Compensation.md) much easier by simplifying the wiring and config for [measuring resonances](https://github.com/KevinOConnor/klipper/blob/master/docs/Measuring_Resonances.md). 
+A PCB designed to make [Klipper's](https://github.com/KevinOConnor/klipper) [input shaping](https://github.com/Klipper3d/klipper/blob/master/docs/Resonance_Compensation.md) much easier by simplifying the wiring and config for [measuring resonances](https://github.com/KevinOConnor/klipper/blob/master/docs/Measuring_Resonances.md). You just need this PCB and a USB C cable.
 <br>
 
-## v1 or v2?
+## Version 1 or 2?
 TL;DR: v2 is better
 |v1|v2|
 |--|--|
@@ -20,14 +20,14 @@ You can use the included gerber files to order your own from a PCB manufacturer 
 
 <br>
 
-This file will be updated with the list of known vendors *if* vendors decide to sell assembled KUSBA PCBs. If you are a vendor: I can add links to your store if you are selling KUSBAs, DM me on Discord for details.
+This file will be updated with the list of known vendors ***if*** vendors decide to sell assembled KUSBA PCBs. If you are a vendor: I can add links to your store if you are selling KUSBAs, DM me on Discord for details.
 <br>
 
 
 # Version 2
 
 **FKA: ADXL345 MCU 2: Electric Boogaloo**
-![v2.2](./Images/2_IRL.PNG)
+![v2.1](./Images/2_IRL.PNG)
 <br>[YouTube Video](Soontm)
 
 | Parts                                 |                                |
@@ -38,8 +38,8 @@ This file will be updated with the list of known vendors *if* vendors decide to 
 | Flash                                 | W25Q16JVSNIQ                   |
 | Connector                             | USB C                          |
 | Smallest SMT                          | 0402                           |
-| Other Parts Needed                    | USB C Cable, M3 Screws         |
-| Dimensions                            | 36.4 x 25.0 mm                 |
+| Other Parts Needed                    | USB C Cable, M3/M2.5 Screws    |
+| Dimensions                            | 36.4 x 25.0 mm (v2.2)          |
 | Cost per PCB (ordering 5 from JLCPCB) | ~$15                           |
 
 ## Instructions
@@ -174,13 +174,13 @@ You will also need some Female/Female dupont cables:
 <br>RX > TX1
 7. Plug in the UART programmer to your Windows PC.
 8. Launch the Demonstratior GUI (STM32 Flasher Software).
-9. Choose the correct COM port, hit next, and next agian.
+9. Choose the correct COM port, hit next, and next again.
 10. Make sure the chip detected in this step is correct, hit next again.
-11. Choose "Download to device", click "..." to select the bin file. You will need to change the file type from .s19 to .bin in the lower left corner. Chech "Verify after download", and hit next.
+11. Choose "Download to device", click "..." to select the bin file. You will need to change the file type from .s19 to .bin in the dialog. Chech "Verify after download", and hit next.
 12. The bootloader will now be flashed. One it is complete you can exit the program. Unplug the programmer, and remove all wires and jumpers from the PCB.
 
 ### 2. Flash Klipper to the MCU
-1. Connect the KUSBA to your Raspbery Pi. The LED on the PCB should be flashing. If not you likely choose the wrong bootloader, try again.
+1. Connect the KUSBA to your Raspbery Pi. The LED on the PCB should be flashing.
 2. SSH into your Raspberry Pi.
 3. Go to the Klipper directory
 ```
@@ -245,7 +245,7 @@ sudo nano adxlmcu.cfg
 
 ## Toolhead Mounts
 
-There are .STL files included for mounting the PCBs on various toolheads. If you wish to contribute a design, fork the project, add your design in a new folder, with a readme.md file in the folder, edit the readme.md file in the folder containing all designs, and create a pull request. Very similar to uploading a mod to the VoronUsers repo. STL files should be printable without supports (or include built-in supports), and should be oriented correctly.
+There are .STL files included for mounting the PCBs on various toolheads. Feel free to create a PR or send me the STL files if you designed custom mounts.
 <br> 
 ## YouTube
 
