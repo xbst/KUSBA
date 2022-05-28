@@ -79,7 +79,7 @@ make
 ```
 7. Find the storage location of the pi. This will usually be sda1. Use this command one time with the KUSBA unplugged and one time with KUSBA plugged in to verify.
 ```
-ls /dev/*
+ls /dev/
 ```
 8. Flash the firmware.
 ```
@@ -87,7 +87,6 @@ sudo mount /dev/sda1 /mnt
 sudo cp out/klipper.uf2 /mnt
 sudo umount /mnt
 ```
-9. Reset or unplug and replug in the MCU.
 
 ### 2. Configure Klipper
 1. Go back to the home directory.
