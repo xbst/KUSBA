@@ -11,3 +11,5 @@
 ||Made the PCB slightly larger (36.4mmx25mm) to allow the use of M3 screws.|
 ||Made some test pads larger.|
 ||Files are in the old versions folder because this is untested.|
+
+# The files are temporarily removed to diagnose a bug with the crystal that seems to only affect about 20% of PCBs.
