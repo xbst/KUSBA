@@ -9,7 +9,6 @@
 ||PCB is smaller now (35.6mmx25mm).|
 |v2.2|Made the PCB slightly larger (36.4mmx25mm) to allow the use of M3 screws.|Not Released (HW Bugs)|
 ||Made some test pads larger.|
-||Files are in the old versions folder because this is untested.|
 |v2.3|Fixed a HW bug that affects about 20% of PCBs (or less based on another person ordering this version).|[REMOVED TEMPORARILY](./)|
 ||PCB is even smaller (34mmx25mm) while still using M3 screws.||
 ||Minor QOL imporvements.||
