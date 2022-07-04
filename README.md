@@ -38,8 +38,8 @@ This file will be updated with the list of known vendors ***if*** vendors decide
 | Flash                                 | W25Q16JVSNIQ                   |
 | Connector                             | USB C                          |
 | Smallest SMT                          | 0402                           |
-| Other Parts Needed                    | USB C Cable, M3/M2.5 Screws    |
-| Dimensions                            | 36.4 x 25.0 mm (v2.2)          |
+| Other Parts Needed                    | USB C Cable, M3 Screws         |
+| Dimensions                            | 34.0 x 25.0 mm                 |
 | Cost per PCB (ordering 5 from JLCPCB) | ~$15                           |
 
 ## Instructions
