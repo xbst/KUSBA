@@ -7,10 +7,10 @@
 ||Many components are relocated.|
 ||LED is removed because it was unnecessary.|
 ||PCB is smaller now (35.6mmx25mm).|
-|v2.2|Made the PCB slightly larger (36.4mmx25mm) to allow the use of M3 screws.|Not Released (HW Bugs)|
+|v2.2|Made the PCB slightly larger (36.4mmx25mm) to allow the use of M3 screws.|Not Released (Untested)|
 ||Made some test pads larger.|
-|v2.3|Fixed a HW bug that affects about 20% of PCBs (or less based on another person ordering this version).|[REMOVED TEMPORARILY](./)|
+|v2.3|Fixed a HW bug that affects about 20% of PCBs (or less based on another person ordering this v2.2).|[REMOVED TEMPORARILY](./)|
 ||PCB is even smaller (34mmx25mm) while still using M3 screws.||
-||Minor QOL imporvements.||
+||Minor QOL improvements.||
 
 # The files are temporarily removed to diagnose a bug with the crystal that seems to only affect about 20% of PCBs.
