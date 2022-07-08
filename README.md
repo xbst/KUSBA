@@ -175,7 +175,7 @@ You will also need some Female/Female dupont cables:
 8. Launch the Demonstratior GUI (STM32 Flasher Software).
 9. Choose the correct COM port, hit next, and next again.
 10. Make sure the chip detected in this step is correct, hit next again.
-11. Choose "Download to device", click "..." to select the bin file. You will need to change the file type from .s19 to .bin in the dialog. Chech "Verify after download", and hit next.
+11. Choose "Download to device", click "..." to select the bin file. You will need to change the file type from .s19 to .bin in the dialog. Check "Verify after download", and hit next.
 12. The bootloader will now be flashed. One it is complete you can exit the program. Unplug the programmer, and remove all wires and jumpers from the PCB.
 
 ### 2. Flash Klipper to the MCU
@@ -203,12 +203,12 @@ Bootloader Offset: 8KiB Bootloader (stm32duino)
 ```
 make
 ```
-7. Verify that the MCU is connected. There should be a "leaf:0003" device connected. 
+7. Verify that the MCU is connected. There should be a "1eaf:0003" device connected. 
 ```
 lsusb
 ```
-If there is no "leaf:0003" but there is a "leaf:0004":
-<br>Sometimes the bootloader runs for only a short period after boot (if it thinks there is already a program, so it boots to it). If you unplug & replug in the mcu, and run the "lsusb" quickly enough, you will see a "leaf:0003". If this is the case, you will need to time the next step well.
+If there is no "1eaf:0003" but there is a "1eaf:0004":
+<br>Sometimes the bootloader runs for only a short period after boot (if it thinks there is already a program, so it boots to it). If you unplug & replug in the mcu, and run the "lsusb" quickly enough, you will see a "1eaf:0003". If this is the case, you will need to time the next step well.
 
 8. Flash the firmware.
 ```
