@@ -16,7 +16,7 @@ TL;DR: v2 is better
 
 ## Purchasing a KUSBA
 
-You can use the included gerber files to order your own from a PCB manufacturer like [PCBWay](https://www.pcbway.com/setinvite.aspx?inviteid=374841) or [JLCPCB](https://jlcpcb.com/). I am also considering selling some assembled PCBs, let me know on the [Isik's Tech Discord server](https://l.isiks.tech/discord) if you are interested.
+You can use the included gerber files to order your own from a PCB manufacturer like [PCBWay](https://www.pcbway.com/setinvite.aspx?inviteid=374841) or [JLCPCB](https://jlcpcb.com/).
 
 <br>
 
@@ -28,9 +28,8 @@ This file will be updated with the list of known vendors ***if*** vendors decide
 
 **FKA: ADXL345 MCU 2: Electric Boogaloo**
 ![v2.3](./Images/v2.jpg)
-<br>[YouTube Video](http://Soontm)
-
 <br>**NOTE: The first reading from the accelerometer will be invalid (f2 vs e5). This is expected and your KUSBA will still work fine after the first query. Run "ACCELEROMETER_QUERY" once before starting measuring resonances.**
+<br>[YouTube Video](http://Soontm)
 
 | Parts                                 |                                |
 | ------------------------------------- | ------------------------------ |
@@ -210,12 +209,8 @@ make
 lsusb
 ```
 If there is no "1eaf:0003" but there is a "1eaf:0004":
-<<<<<<< Updated upstream
-<br>Sometimes the bootloader runs for only a short period after boot (if it thinks there is already a program, so it boots to it). If you unplug & replug in the mcu, and run the "lsusb" quickly enough, you will see a "1eaf:0003". If this is the case, you will need to time the next step well.
-=======
 <br>
 Sometimes the bootloader runs for only a short period after boot (if it thinks there is already a program, so it boots to it). If you unplug & replug in the mcu, and run the "lsusb" quickly enough, you will see a "1eaf:0003". If this is the case, you will need to time the next step well.
->>>>>>> Stashed changes
 
 8. Flash the firmware.
 ```
