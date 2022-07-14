@@ -4,15 +4,15 @@ A PCB designed to make [Klipper's](https://github.com/KevinOConnor/klipper) [inp
 
 ## Version 1 or 2?
 TL;DR: v2 is better
-|v1|v2|
-|--|--|
-|More expensive|Cheaper|
-|Uses unobtanium parts|All parts are easy to source|
-|Requires external UART programmer|Not needed|
-|More complicated initial setup|Easier initial setup|
-|Requires external GY-291 ADXL345 Module|ADXL345 is on the PCB, not needed|
-|Takes more room (with ADXL345)|Takes less room (easier to mount)|
-|PCB is smaller|PCB is larger|
+| v1                                      | v2                                |
+| --------------------------------------- | --------------------------------- |
+| More expensive                          | Cheaper                           |
+| Uses unobtanium parts                   | All parts are easy to source      |
+| Requires external UART programmer       | Not needed                        |
+| More complicated initial setup          | Easier initial setup              |
+| Requires external GY-291 ADXL345 Module | ADXL345 is on the PCB, not needed |
+| Takes more room (with ADXL345)          | Takes less room (easier to mount) |
+| PCB is smaller                          | PCB is larger                     |
 
 ## Purchasing a KUSBA
 
@@ -27,8 +27,10 @@ This file will be updated with the list of known vendors ***if*** vendors decide
 # Version 2
 
 **FKA: ADXL345 MCU 2: Electric Boogaloo**
-![v2.1](./Images/2_IRL.PNG)
-<br>[YouTube Video](Soontm)
+![v2.3](./Images/v2.jpg)
+<br>[YouTube Video](http://Soontm)
+
+<br>**NOTE: The first reading from the accelerometer will be invalid (f2 vs e5). This is expected and your KUSBA will still work fine after the first query. Run "ACCELEROMETER_QUERY" once before starting measuring resonances.**
 
 | Parts                                 |                                |
 | ------------------------------------- | ------------------------------ |
@@ -116,11 +118,13 @@ sudo nano adxlmcu.cfg
 
 <br>
 
+**NOTE: The first reading from the accelerometer will be invalid (f2 vs e5). This is expected and your KUSBA will still work fine after the first query. Run "ACCELEROMETER_QUERY" once before starting measuring resonances.**
+
 # Version 1.0
 
 **FKA: ADXL345 MCU**
 
-![v1.0](./Images/1_IRL.jpg)
+![v1.0](./Images/v1.jpg)
 <br>[YouTube Video](https://www.youtube.com/watch?v=tDQd-jGegX0)
 
 | Parts                                 |                                                              |
@@ -133,9 +137,7 @@ sudo nano adxlmcu.cfg
 | Smallest SMT                          | 0402                                                         |
 | Other Parts Needed                    | ADXL345 Module, USB C Cable, M3 Screws, UART Programmer      |
 | Dimensions                            | 25.0 x 30.0 mm                                               |
-| Cost per PCB (ordering 5 from JLCPCB) | ~$25                                                          |
-
-
+| Cost per PCB (ordering 5 from JLCPCB) | ~$25                                                         |
 
 ## Instructions
 
@@ -154,7 +156,7 @@ You will need a USB UART programmer. I recommend using a CP2012 programmer, beca
 Programmer:
 [Aliexpress](https://s.click.aliexpress.com/e/_AB7gkA)
 [Amazon](https://amzn.to/2OTzpI8)
- 
+
 You will also need some Female/Female dupont cables:
 [Aliexpress](https://s.click.aliexpress.com/e/_9GgrhS)
 [Amazon](https://amzn.to/3uAZU5E)
@@ -208,7 +210,12 @@ make
 lsusb
 ```
 If there is no "1eaf:0003" but there is a "1eaf:0004":
+<<<<<<< Updated upstream
 <br>Sometimes the bootloader runs for only a short period after boot (if it thinks there is already a program, so it boots to it). If you unplug & replug in the mcu, and run the "lsusb" quickly enough, you will see a "1eaf:0003". If this is the case, you will need to time the next step well.
+=======
+<br>
+Sometimes the bootloader runs for only a short period after boot (if it thinks there is already a program, so it boots to it). If you unplug & replug in the mcu, and run the "lsusb" quickly enough, you will see a "1eaf:0003". If this is the case, you will need to time the next step well.
+>>>>>>> Stashed changes
 
 8. Flash the firmware.
 ```
@@ -246,6 +253,7 @@ sudo nano adxlmcu.cfg
 
 There are .STL files included for mounting the PCBs on various toolheads. Feel free to create a PR or send me the STL files if you designed custom mounts.
 <br> 
+
 ## YouTube
 
 I am a YouTube content creator, and these projects were designed for my videos. If you want content about these projects & more, please consider [subscribing to my YouTube channel](https://www.youtube.com/channel/UClAWYmCkHjsbaX9Wz1df2mg).
@@ -257,4 +265,3 @@ If you feel like contributing to the development of this project and other proje
 - This readme file contains Amazon Associate, Aliexpress affiliate, PCBWay affiliate links. I make a comission on qualifying purchases.
 - This project does not come with any warranty, if you choose to build/use a KUSBA, you are doing this at your own risk!
 - If you want to sell KUSBA PCBs, you are allowed to, and you will not owe me any royalties. **You cannot claim that I endorse the sale**. You can check the license file for more information. However, if you **wish** to give me a share, you can [Paypal](https://l.isiks.tech/PayPal) me, or subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech/member).
-
