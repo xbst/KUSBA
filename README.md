@@ -16,11 +16,15 @@ TL;DR: v2 is better
 
 ## Purchasing a KUSBA
 
+- [Orvil3D (AU)](https://orvil3d.com/products/kusba)
+
+<br>
+
 You can use the included gerber files to order your own from a PCB manufacturer like [PCBWay](https://www.pcbway.com/setinvite.aspx?inviteid=374841) or [JLCPCB](https://jlcpcb.com/).
 
 <br>
 
-This file will be updated with the list of known vendors ***if*** vendors decide to sell assembled KUSBA PCBs. If you are a vendor: I can add links to your store if you are selling KUSBAs, DM me on Discord for details.
+This file will be updated with the list of known vendors if other vendors decide to sell assembled KUSBA PCBs. If you are a vendor: I can add links to your store if you are selling KUSBAs, DM me on Discord for details.
 <br>
 
 
@@ -254,9 +258,9 @@ There are .STL files included for mounting the PCBs on various toolheads. Feel f
 I am a YouTube content creator, and these projects were designed for my videos. If you want content about these projects & more, please consider [subscribing to my YouTube channel](https://www.youtube.com/channel/UClAWYmCkHjsbaX9Wz1df2mg).
 <br>
 
-If you feel like contributing to the development of this project and other projects like this, you can [Paypal](https://l.isiks.tech/PayPal) me, or subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech/member).
+If you feel like contributing to the development of this project and other projects like this you can sponsor me on [GitHub](https://github.com/sponsors/xbst), you can [Paypal](https://l.isiks.tech/PayPal) me, or subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech/member).
 
 ## Notes
 - This readme file contains Amazon Associate, Aliexpress affiliate, PCBWay affiliate links. I make a comission on qualifying purchases.
 - This project does not come with any warranty, if you choose to build/use a KUSBA, you are doing this at your own risk!
-- If you want to sell KUSBA PCBs, you are allowed to, and you will not owe me any royalties. **You cannot claim that I endorse the sale**. You can check the license file for more information. However, if you **wish** to give me a share, you can [Paypal](https://l.isiks.tech/PayPal) me, or subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech/member).
+- If you want to sell KUSBA PCBs, you are allowed to, and you will not owe me any royalties. **You cannot claim that I endorse the sale**. You can check the license file for more information. However, if you **wish** to give me a share you can sponsor me on [GitHub](https://github.com/sponsors/xbst), [Paypal](https://l.isiks.tech/PayPal) me, or subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech/member).
