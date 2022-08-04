@@ -14,7 +14,7 @@ You can also use the included gerber files to order your own from a PCB manufact
 
 
 # Version 2
-[YouTube Video](http://Soontm)
+[YouTube Video](https://www.youtube.com/watch?v=gtrQXdAaXB4)
 ![v2.3](./Images/v2.jpg)
 <br>**NOTE: The first reading from the accelerometer will be invalid (usually f2 vs e5). This is expected and your KUSBA will still work fine after the first query. Run ``ACCELEROMETER_QUERY`` once before starting measuring resonances.**
 
