@@ -32,7 +32,7 @@ This file will be updated with the list of known vendors if other vendors decide
 
 **FKA: ADXL345 MCU 2: Electric Boogaloo**
 ![v2.3](./Images/v2.jpg)
-<br>**NOTE: The first reading from the accelerometer will be invalid (f2 vs e5). This is expected and your KUSBA will still work fine after the first query. Run "ACCELEROMETER_QUERY" once before starting measuring resonances.**
+<br>**NOTE: The first reading from the accelerometer will be invalid (usually f2 vs e5). This is expected and your KUSBA will still work fine after the first query. Run "ACCELEROMETER_QUERY" once before starting measuring resonances.**
 <br>[YouTube Video](http://Soontm)
 
 | Parts                                 |                                |
@@ -59,7 +59,7 @@ sudo apt install python3-numpy python3-matplotlib
 ```
 
 ### 1. Flash Klipper to the MCU
-1. Connect the KUSBA to your Raspbery Pi.
+1. Connect the KUSBA to your Raspbery Pi while holding down the button on the KUSBA.
 2. SSH into your Raspberry Pi.
 3. Go to the Klipper directory
 ```
@@ -82,7 +82,7 @@ Communication inferface: USB
 ```
 make
 ```
-7. Find the storage location of the pi. This will usually be sda1. Use this command one time with the KUSBA unplugged and one time with KUSBA plugged in to verify.
+7. Find the storage location of the pi. This will usually be sda1. Use this command one time with the KUSBA unplugged and one time with KUSBA plugged in (while holding down the button on the KUSBA) to verify.
 ```
 ls /dev/
 ```
@@ -121,7 +121,7 @@ sudo nano adxlmcu.cfg
 
 <br>
 
-**NOTE: The first reading from the accelerometer will be invalid (f2 vs e5). This is expected and your KUSBA will still work fine after the first query. Run "ACCELEROMETER_QUERY" once before starting measuring resonances.**
+**NOTE: The first reading from the accelerometer will be invalid (usually f2 vs e5). This is expected and your KUSBA will still work fine after the first query. Run "ACCELEROMETER_QUERY" once before starting measuring resonances.**
 
 # Version 1.0
 
