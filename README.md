@@ -2,38 +2,21 @@
 A PCB designed to make [Klipper's](https://github.com/KevinOConnor/klipper) [input shaping](https://github.com/Klipper3d/klipper/blob/master/docs/Resonance_Compensation.md) much easier by simplifying the wiring and config for [measuring resonances](https://github.com/KevinOConnor/klipper/blob/master/docs/Measuring_Resonances.md). You just need this PCB and a USB C cable.
 <br>
 
-## Version 1 or 2?
-TL;DR: v2 is better
-| v1                                      | v2                                |
-| --------------------------------------- | --------------------------------- |
-| More expensive                          | Cheaper                           |
-| Uses unobtanium parts                   | All parts are easy to source      |
-| Requires external UART programmer       | Not needed                        |
-| More complicated initial setup          | Easier initial setup              |
-| Requires external GY-291 ADXL345 Module | ADXL345 is on the PCB, not needed |
-| Takes more room (with ADXL345)          | Takes less room (easier to mount) |
-| PCB is smaller                          | PCB is larger                     |
 
 ## Purchasing a KUSBA
-
+Known vendors:
+- DFH (US) (Soon™)
+- [Lab4450 (EU)](https://lab4450.com/product/ksuba-adxl345/)
 - [Orvil3D (AU)](https://orvil3d.com/products/kusba)
 
-<br>
-
-You can use the included gerber files to order your own from a PCB manufacturer like [PCBWay](https://www.pcbway.com/setinvite.aspx?inviteid=374841) or [JLCPCB](https://jlcpcb.com/).
-
-<br>
-
-This file will be updated with the list of known vendors if other vendors decide to sell assembled KUSBA PCBs. If you are a vendor: I can add links to your store if you are selling KUSBAs, DM me on Discord for details.
+You can also use the included gerber files to order your own from a PCB manufacturer like [PCBWay](https://www.pcbway.com/setinvite.aspx?inviteid=374841) or [JLCPCB](https://jlcpcb.com/).
 <br>
 
 
 # Version 2
-
-**FKA: ADXL345 MCU 2: Electric Boogaloo**
+[YouTube Video](http://Soontm)
 ![v2.3](./Images/v2.jpg)
-<br>**NOTE: The first reading from the accelerometer will be invalid (usually f2 vs e5). This is expected and your KUSBA will still work fine after the first query. Run "ACCELEROMETER_QUERY" once before starting measuring resonances.**
-<br>[YouTube Video](http://Soontm)
+<br>**NOTE: The first reading from the accelerometer will be invalid (usually f2 vs e5). This is expected and your KUSBA will still work fine after the first query. Run ``ACCELEROMETER_QUERY`` once before starting measuring resonances.**
 
 | Parts                                 |                                |
 | ------------------------------------- | ------------------------------ |
@@ -121,14 +104,14 @@ sudo nano adxlmcu.cfg
 
 <br>
 
-**NOTE: The first reading from the accelerometer will be invalid (usually f2 vs e5). This is expected and your KUSBA will still work fine after the first query. Run "ACCELEROMETER_QUERY" once before starting measuring resonances.**
+**NOTE: The first reading from the accelerometer will be invalid (usually f2 vs e5). This is expected and your KUSBA will still work fine after the first query. Run ``ACCELEROMETER_QUERY`` once before starting measuring resonances.**
 
-# Version 1.0
+# Version 1
 
 **FKA: ADXL345 MCU**
+<br>[YouTube Video](https://www.youtube.com/watch?v=tDQd-jGegX0)
 
 ![v1.0](./Images/v1.jpg)
-<br>[YouTube Video](https://www.youtube.com/watch?v=tDQd-jGegX0)
 
 | Parts                                 |                                                              |
 | ------------------------------------- | ------------------------------------------------------------ |
@@ -251,8 +234,19 @@ sudo nano adxlmcu.cfg
 ## Toolhead Mounts
 
 There are .STL files included for mounting the PCBs on various toolheads. Feel free to create a PR or send me the STL files if you designed custom mounts.
+The .STEP model of the PCB and the SB and mini-AB mounts are also included in this repo.
 <br> 
-
+## Version 1 or 2?
+TL;DR: v2 is better
+| v1                                      | v2                                |
+| --------------------------------------- | --------------------------------- |
+| More expensive                          | Cheaper                           |
+| Uses unobtanium parts                   | All parts are easy to source      |
+| Requires external UART programmer       | Not needed                        |
+| More complicated initial setup          | Easier initial setup              |
+| Requires external GY-291 ADXL345 Module | ADXL345 is on the PCB, not needed |
+| Takes more room (with ADXL345)          | Takes less room (easier to mount) |
+| PCB is smaller                          | PCB is larger                     |
 ## YouTube
 
 I am a YouTube content creator, and these projects were designed for my videos. If you want content about these projects & more, please consider [subscribing to my YouTube channel](https://www.youtube.com/channel/UClAWYmCkHjsbaX9Wz1df2mg).
