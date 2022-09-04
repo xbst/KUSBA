@@ -5,7 +5,7 @@ A PCB designed to make [Klipper's](https://github.com/KevinOConnor/klipper) [inp
 
 ## Purchasing a KUSBA
 Known vendors:
-- DFH (US) (Soon™)
+- [DFH (US)](https://deepfriedhero.in/collections/new-products/products/kusba-adxl345-accelerometer-by-xbst_?aff=6)
 - [Lab4450 (EU)](https://lab4450.com/product/ksuba-adxl345/)
 - [Orvil3D (AU)](https://orvil3d.com/products/kusba)
 
@@ -255,6 +255,6 @@ I am a YouTube content creator, and these projects were designed for my videos. 
 If you feel like contributing to the development of this project and other projects like this you can sponsor me on [GitHub](https://github.com/sponsors/xbst), subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech/member).
 
 ## Notes
-- This readme file contains Amazon Associate, Aliexpress affiliate, PCBWay affiliate links. I make a comission on qualifying purchases.
+- This readme file contains Amazon Associate, Aliexpress affiliate, PCBWay affiliate, DFH affiliate links. I make a comission on qualifying purchases.
 - This project does not come with any warranty, if you choose to build/use a KUSBA, you are doing this at your own risk!
 - If you want to sell KUSBA PCBs, you are allowed to, and you will not owe me any royalties. **You cannot claim that I endorse the sale**. You can check the license file for more information. However, if you **wish** to give me a share you can sponsor me on [GitHub](https://github.com/sponsors/xbst), subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech/member).
