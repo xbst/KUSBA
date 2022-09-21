@@ -7,6 +7,7 @@ A PCB designed to make [Klipper's](https://github.com/KevinOConnor/klipper) [inp
 Known vendors:
 - [DFH (US)](https://deepfriedhero.in/collections/new-products/products/kusba-adxl345-accelerometer-by-xbst_?aff=6)
 - [Lab4450 (EU)](https://lab4450.com/product/ksuba-adxl345/)
+- [Printy Please (UK)](https://www.printyplease.uk/KUSBA)
 - [Orvil3D (AU)](https://orvil3d.com/products/kusba)
 
 You can also use the included gerber files to order your own from a PCB manufacturer like [PCBWay](https://www.pcbway.com/setinvite.aspx?inviteid=374841) or [JLCPCB](https://jlcpcb.com/).
