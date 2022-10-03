@@ -82,8 +82,13 @@ sudo umount /mnt
 ```
 cd ~
 ```
-2. Download the [adxlmcu.cfg](./Firmware/v2/adxlmcu.cfg) file from this repo using:
+2. Download the [adxlmcu.cfg](./Firmware/v2/adxlmcu.cfg) file from this repo. Octoprint:
 ```
+sudo wget https://raw.githubusercontent.com/xbst/KUSBA/main/Firmware/v2/adxlmcu.cfg
+```
+Mainsail: (or if config files are in klipper_config instead of home)
+```
+cd klipper_config
 sudo wget https://raw.githubusercontent.com/xbst/KUSBA/main/Firmware/v2/adxlmcu.cfg
 ```
 3. Find your MCU address.
