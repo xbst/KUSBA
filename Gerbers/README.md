@@ -14,5 +14,6 @@
 ||PCB is even smaller (34mmx25mm) while still using M3 screws.||
 |v2.4 (Not Tested)|Adds USB C-to-C cable support.|[Gerbers](./Untested/v2.4)|
 ||Minor silkscreen and other cosmetic changes.||
+||Same size and layout. Compatible with v2.3 mounts.||
 
 v2.4 is untested so I recommend ordering v2.3 unless you are feeling adventrous.
