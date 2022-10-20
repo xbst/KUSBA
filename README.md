@@ -5,10 +5,12 @@ A PCB designed to make [Klipper's](https://github.com/KevinOConnor/klipper) [inp
 
 ## Purchasing a KUSBA
 Known vendors:
-- [DFH (US)](https://deepfriedhero.in/collections/new-products/products/kusba-adxl345-accelerometer-by-xbst_?aff=6)
+- [DFH (US)](https://dfh.fm/collections/new-products/products/kusba-adxl345-accelerometer-by-xbst_)
 - [Lab4450 (EU)](https://lab4450.com/product/ksuba-adxl345/)
 - [Printy Please (UK)](https://www.printyplease.uk/KUSBA)
 - [Orvil3D (AU)](https://orvil3d.com/products/kusba)
+
+This project is licensed under [GPL v3](./LICENSE), meaning vendors are allowed to sell KUSBA PCBs without paying me. If you'd like to support the development of this and future projects please consider [sponsoring](https://github.com/sponsors/xbst) me on GitHub. You can also subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech/member).
 
 You can also use the included gerber files to order your own from a PCB manufacturer like [PCBWay](https://www.pcbway.com/setinvite.aspx?inviteid=374841) or [JLCPCB](https://jlcpcb.com/).
 <br>
@@ -261,6 +263,6 @@ I am a YouTube content creator, and these projects were designed for my videos. 
 If you feel like contributing to the development of this project and other projects like this you can sponsor me on [GitHub](https://github.com/sponsors/xbst), subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech/member).
 
 ## Notes
-- This readme file contains Amazon Associate, Aliexpress affiliate, PCBWay affiliate, DFH affiliate links. I make a comission on qualifying purchases.
+- This readme file contains Amazon Associate, Aliexpress affiliate, PCBWay affiliate links. I make a comission on qualifying purchases.
 - This project does not come with any warranty, if you choose to build/use a KUSBA, you are doing this at your own risk!
 - If you want to sell KUSBA PCBs, you are allowed to, and you will not owe me any royalties. **You cannot claim that I endorse the sale**. You can check the license file for more information. However, if you **wish** to give me a share you can sponsor me on [GitHub](https://github.com/sponsors/xbst), subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech/member).
