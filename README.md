@@ -69,7 +69,7 @@ Communication inferface: USB
 ```
 make
 ```
-7. Find the storage location of the pi. This will usually be sda1. Use this command one time with the KUSBA unplugged and one time with KUSBA plugged in (while holding down the button on the KUSBA) to verify.
+7. Find the storage location of the KUSBA. This will usually be sda1. Use this command one time with the KUSBA unplugged and one time with KUSBA plugged in (while holding down the button on the KUSBA) to verify.
 ```
 ls /dev/
 ```
