@@ -113,7 +113,7 @@ sudo nano adxlmcu.cfg
 
 <br>
 
-**NOTE: The first reading from the accelerometer will be invalid (usually f2 vs e5). This is expected and your KUSBA will still work fine after the first query. Run ``ACCELEROMETER_QUERY`` once before starting measuring resonances.**
+### NOTE: The first reading from the accelerometer will be invalid (usually f2 vs e5). This is expected and your KUSBA will still work fine after the first query. Run ``ACCELEROMETER_QUERY`` once before starting measuring resonances.
 
 # Version 1
 
