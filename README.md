@@ -8,6 +8,7 @@ Known vendors:
 - [DFH (US)](https://dfh.fm/collections/new-products/products/kusba-adxl345-accelerometer-by-xbst_)
 - [Lab4450 (EU)](https://lab4450.com/product/ksuba-adxl345/)
 - [Printy Please (UK)](https://www.printyplease.uk/KUSBA)
+- [DREMC (AU)](https://store.dremc.com.au/products/kusba-usb-adxl345-accelerometer-for-klipper)
 - [Orvil3D (AU)](https://orvil3d.com/products/kusba)
 - [Unique Prints (AU)](https://uniqueprints.shop/shop/electronics-electrical/pcb/kusba-usb-adxl345-accelerometer-for-klipper/)
 
