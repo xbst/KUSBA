@@ -4,6 +4,8 @@
 |[StealthBurner Mount](./StealthBurner.stl)|Voron StealthBurner|v2.3|Limits X travel very slightly (negligible)|xbst_|
 |[StealthBurner Cover](./SB_cover.stl)|Voron StealthBurner|v2.3|Optional cover, further limits X travel but only a few mm|Samwiseg0|
 |[AfterBurner Mount](./AfterBurner.stl)|Voron AfterBurner|v2.3|UNTESTED but should work. Front mount.|xbst_|
+|[Mini-SB Front Mount](./MiniSB_Front.stl)|Voron Mini-StealthBurner|v2.3|Easiest mount to attach/remove. Very similar to the Mini-AB mount|xbst_|
+|[Mini-SB Rear Mount](./MiniSB_Patrick.stl)|Voron Mini-StealthBurner|v2.3|If you prefer accelerometers near the carriage use this one. Alternate strain relief with the KUSBA mount. Not compatible with toolhead PCBs|xbst_|
 |[Mini-AB Front Mount](./MiniAB.stl)|Voron Mini-AfterBurner|v2.3|Mounts the KUSBA in front of the toolhead, replace the 2 long M3 screws|xbst_|
 |[Mini-AB Cover](./MiniAB_Cover.stl)|Voron Mini-AfterBurner|v2.3|Optional cover|Samwiseg0|
 
