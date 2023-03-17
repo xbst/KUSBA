@@ -86,23 +86,12 @@ sudo umount /mnt
 ```
 cd ~
 ```
-2. Download the [adxlmcu.cfg](./Firmware/v2/adxlmcu.cfg) file from this repo. Octoprint:
-```
-sudo wget https://raw.githubusercontent.com/xbst/KUSBA/main/Firmware/v2/adxlmcu.cfg
-```
-Mainsail: (or if config files are in klipper_config instead of home)
-```
-cd klipper_config
-sudo wget https://raw.githubusercontent.com/xbst/KUSBA/main/Firmware/v2/adxlmcu.cfg
-```
+2. Download the [adxlmcu.cfg](./Firmware/v1/adxlmcu.cfg) file from this repo and add it to your Klipper config directory.
 3. Find your MCU address.
 ```
 ls /dev/serial/by-id/*
 ```
 4. Edit the adxlmcu.cfg file. Change the MCU serial address and the probe points.
-```
-sudo nano adxlmcu.cfg
-```
 5. Add the following to your printer.cfg:
 ```
 [include adxlmcu.cfg]
@@ -220,18 +209,12 @@ dfu-util -d 1eaf:0003 -a 2 -R -D out/klipper.bin
 ```
 cd ~
 ```
-2. Download the [adxlmcu.cfg](./Firmware/v1/adxlmcu.cfg) file from this repo using:
-```
-sudo wget https://raw.githubusercontent.com/xbst/KUSBA/main/Firmware/v1/adxlmcu.cfg
-```
+2. Download the [adxlmcu.cfg](./Firmware/v1/adxlmcu.cfg) file from this repo and add it to your Klipper config directory.
 3. Find your MCU address.
 ```
 ls /dev/serial/by-id/*
 ```
 4. Edit the adxlmcu.cfg file. Change the MCU serial address and the probe points.
-```
-sudo nano adxlmcu.cfg
-```
 5. Add the following to your printer.cfg:
 ```
 [include adxlmcu.cfg]
