@@ -26,8 +26,8 @@ You can also use the included gerber files to order your own from a PCB manufact
 
 ## Toolhead Mounts
 
-[There are .STL files included for mounting the PCBs on various toolheads.](./Mounts) Feel free to create a PR or send me the STL files if you designed custom mounts.
-[The .STEP model of the PCB and the SB and mini-AB mounts are also included in this repo.](./CAD/v2.3-CAD-Model.step)
+Toolhead mounts can be found [here](./Mounts).
+<br>The CAD model of the PCB and some toolhead mounts can be found [here](./CAD).
 <br> 
 
 # Versions
@@ -64,6 +64,6 @@ I am a YouTube content creator, and these projects were designed for my videos. 
 If you feel like contributing to the development of this project and other projects like this you can sponsor me on [GitHub](https://github.com/sponsors/xbst), subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech/member).
 
 ## Notes
-- This readme file contains Amazon Associate, Aliexpress affiliate, PCBWay affiliate links. I make a comission on qualifying purchases.
+- Readme files in this repo contain Amazon Associate, Aliexpress affiliate, PCBWay affiliate links. I make a comission on qualifying purchases.
 - This project does not come with any warranty, if you choose to build/use a KUSBA, you are doing this at your own risk!
 - If you want to sell KUSBA PCBs, you are allowed to, and you will not owe me any royalties. **You cannot claim that I endorse the sale**. You can check the license file for more information. However, if you **wish** to give me a share you can sponsor me on [GitHub](https://github.com/sponsors/xbst), subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech/member).
