@@ -48,7 +48,7 @@ sudo umount /mnt
 ```
 cd ~
 ```
-2. Download the [adxlmcu.cfg](./Firmware/v2/adxlmcu.cfg) file from this repo and add it to your Klipper config directory.
+2. Download the [adxlmcu.cfg](../Firmware/v2/adxlmcu.cfg) file from this repo and add it to your Klipper config directory.
 3. Find your MCU address.
 ```
 ls /dev/serial/by-id/*
