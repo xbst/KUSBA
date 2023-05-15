@@ -6,7 +6,7 @@ Taken from the [official Klipper docs](https://www.klipper3d.org/Measuring_Reson
 ```
 ~/klippy-env/bin/pip install -v numpy
 sudo apt update
-sudo apt install python3-numpy python3-matplotlib
+sudo apt install python3-numpy python3-matplotlib libatlas-base-dev
 ```
 ### 1. Flash the Bootloader
 You will need a USB UART programmer. I recommend using a CP2012 programmer, because it is cheap, easy to source, and it works.
