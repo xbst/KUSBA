@@ -18,11 +18,9 @@ You can also use the included gerber files to order your own from a PCB manufact
 <br>
 
 ## Instructions
- - KUSBA v2 Instructions - Rampon Version
+ - [KUSBA v2 Instructions](./Docs/v2-Rampon-Firmware.md) - Rampon Version
  - [KUSBA v2 Instructions](./Docs/v2-Firmware.md) - Klipper Version
  - [KUSBA v1 Instructions](./Docs/v1-Firmware.md)
-
-***[Rampon](https://github.com/rogerlz/rampon_anchor) instructions will be added soon.***
 
 ## Toolhead Mounts
 
