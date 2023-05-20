@@ -18,9 +18,11 @@ You can also use the included gerber files to order your own from a PCB manufact
 <br>
 
 ## Instructions
- - [KUSBA v2 Instructions](./Docs/v2-Rampon-Firmware.md) - Rampon Version
- - [KUSBA v2 Instructions](./Docs/v2-Firmware.md) - Klipper Version
+ - [KUSBA v2 Instructions](./Docs/v2-Rampon-Firmware.md) - Rampon Firmware
+ - [KUSBA v2 Instructions](./Docs/v2-Firmware.md) - Klipper Firmware
  - [KUSBA v1 Instructions](./Docs/v1-Firmware.md)
+
+Rampon Firmware is recommended. It is easier to flash and less buggy than Klipper on RP2040.
 
 ## Toolhead Mounts
 
