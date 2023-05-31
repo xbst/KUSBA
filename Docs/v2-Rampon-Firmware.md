@@ -8,6 +8,9 @@ sudo apt install python3-numpy python3-matplotlib libatlas-base-dev
 ```
 
 ### 1. Flash Rampon Anchor to the MCU
+**Your KUSBA might come with firmware pre-flashed. If it does, you can safely skip this step. 
+<br>If unsure, run `ls /dev/serial/by-id/*`. If you see `/dev/serial/by-id/usb-Anchor_Rampon-if00` your KUSBA already has the firmware so you can skip this step.**
+
 You can do this step on a PC or on your Raspberry Pi (or another Linux machine).
 <details>
   <summary>PC</summary>
