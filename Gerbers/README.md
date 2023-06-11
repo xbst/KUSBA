@@ -15,5 +15,3 @@
 |v2.4|Adds USB C-to-C cable support.|[Gerbers](./Latest-Tested-Version)|
 ||Minor silkscreen and other cosmetic changes.||
 ||Same size and layout. Compatible with v2.3 mounts.||
-
-v2.4 is untested so I recommend ordering v2.3 unless you are feeling adventrous.
