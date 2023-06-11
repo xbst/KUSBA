@@ -10,9 +10,9 @@
 ||PCB is smaller now (35.6mmx25mm).||
 |v2.2|Made the PCB slightly larger (36.4mmx25mm) to allow the use of M3 screws. |Not Released (Untested)|
 ||Made some test pads larger.||
-|v2.3|Fixed a HW bug that affects about 20% of PCBs (or less based on another person ordering v2.1).|[Gerbers](./Latest-Tested-Version)|
+|v2.3|Fixed a HW bug that affects about 20% of PCBs (or less based on another person ordering v2.1).|[Gerbers](./Old-Versions/v2.3)|
 ||PCB is even smaller (34mmx25mm) while still using M3 screws.||
-|v2.4 (Not Tested)|Adds USB C-to-C cable support.|[Gerbers](./Untested/v2.4)|
+|v2.4|Adds USB C-to-C cable support.|[Gerbers](./Latest-Tested-Version)|
 ||Minor silkscreen and other cosmetic changes.||
 ||Same size and layout. Compatible with v2.3 mounts.||
 
