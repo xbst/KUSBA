@@ -4,7 +4,7 @@ A PCB designed to make [Klipper's](https://github.com/KevinOConnor/klipper) [inp
 
 
 ## Purchasing a KUSBA
-- Sold by me (US): ~~[Etsy (Cheaper)](https://www.etsy.com/listing/1492189843/kusba-klipper-usb-accelerometer)~~* ~~[Amazon](https://www.amazon.com/dp/B0C734JL4Z)~~* [eBay](https://www.ebay.com/itm/155614526351)
+- Sold by me (US): ~~[Etsy](https://www.etsy.com/listing/1492189843/kusba-klipper-usb-accelerometer)~~* ~~[Amazon](https://www.amazon.com/dp/B0C734JL4Z)~~* [eBay](https://www.ebay.com/itm/155614526351)
 - [DFH (US)](https://dfh.fm/collections/new-products/products/kusba-adxl345-accelerometer-by-xbst_)
 - [Lab4450 (EU)](https://lab4450.com/product/ksuba-adxl345/)
 - [Printy Please (UK)](https://www.printyplease.uk/KUSBA)
