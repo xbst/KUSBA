@@ -4,7 +4,9 @@ A PCB designed to make [Klipper's](https://github.com/KevinOConnor/klipper) [inp
 
 
 ## Purchasing a KUSBA
-- Sold by me (US): ~~[Etsy](https://www.etsy.com/listing/1492189843/kusba-klipper-usb-accelerometer)~~* ~~[Amazon](https://www.amazon.com/dp/B0C734JL4Z)~~* [eBay](https://www.ebay.com/itm/155614526351)
+- [Isik's Tech (Me) on Etsy (US)](https://www.etsy.com/listing/1492189843/kusba-klipper-usb-accelerometer)
+- [xbst_1 (Me) on eBay (US)](https://www.ebay.com/itm/155614526351)
+- ~~[Isik's Tech (Me) on Amazon (US - Prime Shipping](https://www.amazon.com/dp/B0C734JL4Z)~~*
 - [DFH (US)](https://dfh.fm/collections/new-products/products/kusba-adxl345-accelerometer-by-xbst_)
 - [Lab4450 (EU)](https://lab4450.com/product/ksuba-adxl345/)
 - [Printy Please (UK)](https://www.printyplease.uk/KUSBA)
@@ -17,7 +19,7 @@ This project is licensed under [GPL v3](./LICENSE), meaning vendors are allowed 
 You can also use the included gerber files to order your own from a PCB manufacturer like [PCBWay](https://www.pcbway.com/setinvite.aspx?inviteid=374841) or [JLCPCB](https://jlcpcb.com/).
 <br>
 
-*Working on relisting on Etsy, will be updated soon. Amazon is on the way to their warehouse so it gets Prime shipping, should be in stock in a week or so.
+*Amazon is on the way to their warehouse so it gets Prime shipping, should be in stock in a week or so.
 ## Instructions
  - [KUSBA v2 Instructions](./Docs/v2-Rampon-Firmware.md) - Rampon Firmware
  - [KUSBA v2 Instructions](./Docs/v2-Firmware.md) - Klipper Firmware
