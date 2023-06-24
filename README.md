@@ -33,7 +33,7 @@ Toolhead mounts can be found [here](./Mounts).
 <br>The CAD model of the PCB and some toolhead mounts can be found [here](./CAD).
 <br> 
 
-# Versions
+## Versions
 
 | Parts                                 | KUSBA v2                       | KUSBA v1 |
 | ------------------------------------- | ------------------------------ | ---|
@@ -61,7 +61,7 @@ TL;DR: v2 is better
 
 ## YouTube
 
-I am a YouTube content creator, and these projects were designed for my videos. If you want content about these projects & more, please consider [subscribing to my YouTube channel](https://www.youtube.com/channel/UClAWYmCkHjsbaX9Wz1df2mg).
+I am a YouTube content creator. If you want content about these projects & more, please consider [subscribing to my YouTube channel](https://www.youtube.com/channel/UClAWYmCkHjsbaX9Wz1df2mg).
 <br>
 
 If you feel like contributing to the development of this project and other projects like this you can sponsor me on [GitHub](https://github.com/sponsors/xbst), subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech/member).
