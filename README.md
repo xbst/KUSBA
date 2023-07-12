@@ -8,6 +8,7 @@ A PCB designed to make [Klipper's](https://github.com/KevinOConnor/klipper) [inp
 - [xbst_1 (Me) on eBay (US)](https://www.ebay.com/itm/155614526351)
 - [Isik's Tech (Me) on Amazon (US)](https://www.amazon.com/dp/B0C734JL4Z/)
 - [DFH (US)](https://dfh.fm/collections/new-products/products/kusba-adxl345-accelerometer-by-xbst_)
+- [XR Bunker (US)](https://xrbunker.works/products/kusba-by-xbst_isik)
 - [Lab4450 (EU)](https://lab4450.com/product/ksuba-adxl345/)
 - [Printy Please (UK)](https://www.printyplease.uk/KUSBA)
 - [DREMC (AU)](https://store.dremc.com.au/products/kusba-usb-adxl345-accelerometer-for-klipper)
