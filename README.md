@@ -4,17 +4,22 @@ A PCB designed to make [Klipper's](https://github.com/KevinOConnor/klipper) [inp
 
 
 ## Purchasing a KUSBA
-- [Isik's Tech (Me) on Etsy (US)](https://isikstech.etsy.com/listing/1492189843/kusba-klipper-usb-accelerometer?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1694159192773)
-- [xbst_1 (Me) on eBay (US)](https://www.ebay.com/itm/155614526351)
-- [Amazon (US)](https://www.amazon.com/dp/B0C734JL4Z/) (Prime shipping)
-- [Amazon (CA)](https://www.amazon.ca/dp/B0C734JL4Z) (Ships from the US)
-- [DFH (US)](https://dfh.fm/collections/new-products/products/kusba-adxl345-accelerometer-by-xbst_)
-- [XR Bunker (US)](https://xrbunker.works/products/kusba-by-xbst_isik)
-- [Lab4450 (EU)](https://lab4450.com/product/ksuba-adxl345/)
-- [Printy Please (UK)](https://www.printyplease.uk/KUSBA)
-- [DREMC (AU)](https://store.dremc.com.au/products/kusba-usb-adxl345-accelerometer-for-klipper)
-- [Orvil3D (AU)](https://orvil3d.com/products/kusba)
-- [Unique Prints (AU)](https://uniqueprints.shop/shop/electronics-electrical/pcb/kusba-usb-adxl345-accelerometer-for-klipper/)
+### United States
+- [Amazon - Prime Shipping](https://www.amazon.com/dp/B0C734JL4Z/)
+- [Etsy](https://isikstech.etsy.com/listing/1492189843/kusba-klipper-usb-accelerometer?utm_source=Copy&utm_medium=ListingManager&utm_campaign=Share&utm_term=so.lmsm&share_time=1694159192773)
+- [eBay](https://www.ebay.com/itm/155614526351)
+- [XR Bunker](https://xrbunker.works/products/kusba-by-xbst_isik)
+- [DFH](https://dfh.fm/collections/new-products/products/kusba-adxl345-accelerometer-by-xbst_)
+### Canada
+- [Amazon - Ships from the US](https://www.amazon.ca/dp/B0C734JL4Z)
+### United Kingdom
+- [Printy Please](https://www.printyplease.uk/KUSBA)
+### European Union
+- [Lab4450 - Portugal](https://lab4450.com/product/ksuba-adxl345/)
+### Australia
+- [Unique Prints](https://uniqueprints.shop/shop/electronics-electrical/pcb/kusba-usb-adxl345-accelerometer-for-klipper/)
+- [DREMC](https://store.dremc.com.au/products/kusba-usb-adxl345-accelerometer-for-klipper)
+- [Orvil3D](https://orvil3d.com/products/kusba)
 
 This project is licensed under [GPL v3](./LICENSE), meaning vendors are allowed to sell KUSBA PCBs without paying me. If you'd like to support the development of this and future projects please consider [sponsoring](https://github.com/sponsors/xbst) me on GitHub. You can also subscribe on [Patreon](https://l.isiks.tech/patreon) or [YouTube](https://l.isiks.tech/member).
 
