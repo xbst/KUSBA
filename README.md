@@ -53,7 +53,6 @@ Toolhead mounts can be found [here](./Mounts).
 | Smallest SMT                          | 0402                           | 0402                                                         |
 | Other Parts Needed                    | USB C Cable, M3 Screws         | ADXL345 Module, USB C Cable, M3 Screws, UART Programmer      |
 | Dimensions                            | 34.0 x 25.0 mm                 | 25.0 x 30.0 mm                                               |
-| Cost per PCB (ordering 5 from JLCPCB) | ~$15                           | ~$25                                                         |
 
 TL;DR: v2 is better
 
