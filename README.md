@@ -54,13 +54,6 @@ Toolhead mounts can be found [here](./Mounts).
 | Other Parts Needed                    | USB C Cable, M3 Screws         | ADXL345 Module, USB C Cable, M3 Screws, UART Programmer      |
 | Dimensions                            | 34.0 x 25.0 mm                 | 25.0 x 30.0 mm                                               |
 | Cost per PCB (ordering 5 from JLCPCB) | ~$15                           | ~$25                                                         |
-| | Cheaper | More expensive |
-| | All parts are easy to source | Uses unobtanium parts |
-| | External programmer not needed | Requires external UART programmer |
-| | Easier initial setup | More complicated initial setup |
-| | ADXL345 is on the PCB, not needed | Requires external GY-291 ADXL345 Module |
-| | Takes less room (easier to mount) | Takes more room (with ADXL345) |
-| | PCB is larger | PCB is smaller |
 
 TL;DR: v2 is better
 
