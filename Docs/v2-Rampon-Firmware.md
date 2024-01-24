@@ -10,7 +10,7 @@ sudo apt install python3-numpy python3-matplotlib libatlas-base-dev
 
 ### :warning: Seeing "MCU Protocol Error"?
 Klipper devs did some major changes to the ADXL code, and as a result older Rampon is not compatible with newer Klipper versions, and vice-versa.
-If your Klipper version is v0.12.0-86-gdaf875e6 or later, use Rampon v0.4. If it is before this update, use Rampon v0.3. If your KUSBA stopped working after a Klipper update, you need v0.4.
+If your Klipper version is v0.12.0-85 or later, use Rampon v0.4. If it is before this update, use Rampon v0.3. If your KUSBA stopped working after a Klipper update, you need v0.4.
 
 |Klipper Pre-"Bulk Sensor" Update|Klipper Post-"Bulk Sensor" Update|
 |---|---|
