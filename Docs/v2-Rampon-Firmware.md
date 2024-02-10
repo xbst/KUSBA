@@ -53,7 +53,9 @@ You can do this step on a PC or on your Raspberry Pi (or another Linux machine).
 
 ### 2. Configure Klipper
 1. Download the [adxlmcu.cfg](../Firmware/v2-Rampon/adxlmcu.cfg) file from this repo and add it to your Klipper config directory.
-4. Edit the adxlmcu.cfg file. Change the the probe points.
+	
+ 	WINDOWS/PC USERS: It is recommended to copy-paste the contents, as downloading the file will alter the contents to incorrect raw data.
+4. Edit the adxlmcu.cfg file per the instructions within the file to change the probe points.
 5. Add the following to your printer.cfg:
 ```
 [include adxlmcu.cfg]
