@@ -4,7 +4,7 @@ Taken from the [official Klipper docs](https://www.klipper3d.org/Measuring_Reson
 ```
 ~/klippy-env/bin/pip install -v numpy
 sudo apt update
-sudo apt install python3-numpy python3-matplotlib libatlas-base-dev
+sudo apt install python3-numpy python3-matplotlib libatlas-base-dev libopenblas-dev
 ```
 
 
