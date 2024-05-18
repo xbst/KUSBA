@@ -21,6 +21,7 @@ Follow these steps to flash firmware:
 ### 1. Flash Rampon Anchor to the MCU
 
 You can do this step on a PC or on your Raspberry Pi (or another Linux machine).
+<br> Your KUSBA might already have the firmware pre-flashed. If it does, you can skip this step.
 <details>
   <summary>PC (Easier)</summary>
 
@@ -58,7 +59,7 @@ You can do this step on a PC or on your Raspberry Pi (or another Linux machine).
 ```
 [include adxlmcu.cfg]
 ```
-6. Do your testing. When done comment the include line to disable the KUSBA. (If you don't do this and unplug the KUSBA, Klipper won't work.)
+4. Do your testing. When done comment the include line to disable the KUSBA. (If you don't do this and unplug the KUSBA, Klipper won't work.)
 ```
 # [include adxlmcu.cfg]
 ```
