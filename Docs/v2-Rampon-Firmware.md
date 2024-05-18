@@ -62,3 +62,14 @@ You can do this step on a PC or on your Raspberry Pi (or another Linux machine).
 ```
 # [include adxlmcu.cfg]
 ```
+
+<details>
+  <summary>LEGACY INSTRUCTIONS</summary>
+  
+  Ignore unless you know you need these instructions.
+  
+  [KUSBA v2 Non-Rampon Klipper Instructions](./v2-Firmware.md) - NOT RECOMMENDED
+  
+  [KUSBA v1 Instructions](./v1-Firmware.md)
+  
+</details>
