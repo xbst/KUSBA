@@ -26,7 +26,7 @@ You can also use the included gerber files to order your own from a PCB manufact
 <br>
 
 ## Instructions
-[KUSBA Instructions](./Docs/v2-Rampon-Firmware.md)
+[KUSBA Instructions](https://docs.isiks.tech/KUSBA/KUSBA-manual/)
 
 ## Toolhead Mounts
 
